@@ -421,33 +421,6 @@ passwd\malware_1.c.s:
 	$(MAKE) -f CMakeFiles\Tests.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Tests.dir\passwd\malware_1.c.s
 .PHONY : passwd\malware_1.c.s
 
-passwd\malware_10.obj: passwd\malware_10.c.obj
-
-.PHONY : passwd\malware_10.obj
-
-# target to build an object file
-passwd\malware_10.c.obj:
-	$(MAKE) -f CMakeFiles\Tests.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Tests.dir\passwd\malware_10.c.obj
-.PHONY : passwd\malware_10.c.obj
-
-passwd\malware_10.i: passwd\malware_10.c.i
-
-.PHONY : passwd\malware_10.i
-
-# target to preprocess a source file
-passwd\malware_10.c.i:
-	$(MAKE) -f CMakeFiles\Tests.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Tests.dir\passwd\malware_10.c.i
-.PHONY : passwd\malware_10.c.i
-
-passwd\malware_10.s: passwd\malware_10.c.s
-
-.PHONY : passwd\malware_10.s
-
-# target to generate assembly for a file
-passwd\malware_10.c.s:
-	$(MAKE) -f CMakeFiles\Tests.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Tests.dir\passwd\malware_10.c.s
-.PHONY : passwd\malware_10.c.s
-
 passwd\malware_2.obj: passwd\malware_2.c.obj
 
 .PHONY : passwd\malware_2.obj
@@ -636,33 +609,6 @@ passwd\malware_8.s: passwd\malware_8.c.s
 passwd\malware_8.c.s:
 	$(MAKE) -f CMakeFiles\Tests.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Tests.dir\passwd\malware_8.c.s
 .PHONY : passwd\malware_8.c.s
-
-passwd\malware_9.obj: passwd\malware_9.c.obj
-
-.PHONY : passwd\malware_9.obj
-
-# target to build an object file
-passwd\malware_9.c.obj:
-	$(MAKE) -f CMakeFiles\Tests.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Tests.dir\passwd\malware_9.c.obj
-.PHONY : passwd\malware_9.c.obj
-
-passwd\malware_9.i: passwd\malware_9.c.i
-
-.PHONY : passwd\malware_9.i
-
-# target to preprocess a source file
-passwd\malware_9.c.i:
-	$(MAKE) -f CMakeFiles\Tests.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Tests.dir\passwd\malware_9.c.i
-.PHONY : passwd\malware_9.c.i
-
-passwd\malware_9.s: passwd\malware_9.c.s
-
-.PHONY : passwd\malware_9.s
-
-# target to generate assembly for a file
-passwd\malware_9.c.s:
-	$(MAKE) -f CMakeFiles\Tests.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Tests.dir\passwd\malware_9.c.s
-.PHONY : passwd\malware_9.c.s
 
 watchdog\malware_1.obj: watchdog\malware_1.c.obj
 
@@ -976,9 +922,6 @@ help:
 	@echo ... passwd/malware_1.obj
 	@echo ... passwd/malware_1.i
 	@echo ... passwd/malware_1.s
-	@echo ... passwd/malware_10.obj
-	@echo ... passwd/malware_10.i
-	@echo ... passwd/malware_10.s
 	@echo ... passwd/malware_2.obj
 	@echo ... passwd/malware_2.i
 	@echo ... passwd/malware_2.s
@@ -1000,9 +943,6 @@ help:
 	@echo ... passwd/malware_8.obj
 	@echo ... passwd/malware_8.i
 	@echo ... passwd/malware_8.s
-	@echo ... passwd/malware_9.obj
-	@echo ... passwd/malware_9.i
-	@echo ... passwd/malware_9.s
 	@echo ... watchdog/malware_1.obj
 	@echo ... watchdog/malware_1.i
 	@echo ... watchdog/malware_1.s

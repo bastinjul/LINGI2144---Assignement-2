@@ -4,7 +4,7 @@ mkdir test_evil test_passwd test_watchdog
 
 printf "\n\nCompiling evil malwares\n\n"
 
-for i in {1..10}
+for i in {1..8}
 do
   gcc -o test_evil/evil_malware_${i} evil/malware_${i}.c
 done
