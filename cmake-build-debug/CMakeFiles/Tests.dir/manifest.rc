@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "I:/MA2/Secu2/Tests/cmake-build-debug/CMakeFiles/Tests.dir/embed.manifest"

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Tests"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="I:/MA2/Secu2/Tests/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f I:\MA2\Secu2\Tests\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f I:\MA2\Secu2\Tests\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f I:\MA2\Secu2\Tests\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f I:\MA2\Secu2\Tests\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tests">
+				<Option output="I:/MA2/Secu2/Tests/cmake-build-debug/Tests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="I:/MA2/Secu2/Tests/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f I:\MA2\Secu2\Tests\cmake-build-debug\Makefile VERBOSE=1 Tests"/>
+					<CompileFile command="nmake /NOLOGO /f I:\MA2\Secu2\Tests\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f I:\MA2\Secu2\Tests\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f I:\MA2\Secu2\Tests\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tests/fast">
+				<Option output="I:/MA2/Secu2/Tests/cmake-build-debug/Tests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="I:/MA2/Secu2/Tests/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f I:\MA2\Secu2\Tests\cmake-build-debug\Makefile VERBOSE=1 Tests/fast"/>
+					<CompileFile command="nmake /NOLOGO /f I:\MA2\Secu2\Tests\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f I:\MA2\Secu2\Tests\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f I:\MA2\Secu2\Tests\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="I:/MA2/Secu2/Tests/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f I:\MA2\Secu2\Tests\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f I:\MA2\Secu2\Tests\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f I:\MA2\Secu2\Tests\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f I:\MA2\Secu2\Tests\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="I:/MA2/Secu2/Tests/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f I:\MA2\Secu2\Tests\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f I:\MA2\Secu2\Tests\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f I:\MA2\Secu2\Tests\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f I:\MA2\Secu2\Tests\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="I:/MA2/Secu2/Tests/evil/malware_1.c">
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="I:/MA2/Secu2/Tests/evil/malware_10.c">
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="I:/MA2/Secu2/Tests/evil/malware_2.c">
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="I:/MA2/Secu2/Tests/evil/malware_3.c">
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="I:/MA2/Secu2/Tests/evil/malware_4.c">
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="I:/MA2/Secu2/Tests/evil/malware_6.c">
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="I:/MA2/Secu2/Tests/evil/malware_7.c">
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="I:/MA2/Secu2/Tests/evil/malware_8.c">
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="I:/MA2/Secu2/Tests/evil/malware_9.c">
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="I:/MA2/Secu2/Tests/main.c">
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="I:/MA2/Secu2/Tests/passwd/malware_1.c">
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="I:/MA2/Secu2/Tests/passwd/malware_10.c">
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="I:/MA2/Secu2/Tests/passwd/malware_2.c">
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="I:/MA2/Secu2/Tests/passwd/malware_3.c">
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="I:/MA2/Secu2/Tests/passwd/malware_4.c">
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="I:/MA2/Secu2/Tests/passwd/malware_5.c">
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="I:/MA2/Secu2/Tests/passwd/malware_6.c">
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="I:/MA2/Secu2/Tests/passwd/malware_7.c">
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="I:/MA2/Secu2/Tests/passwd/malware_8.c">
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="I:/MA2/Secu2/Tests/passwd/malware_9.c">
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="I:/MA2/Secu2/Tests/watchdog/malware_1.c">
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="I:/MA2/Secu2/Tests/watchdog/malware_10.c">
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="I:/MA2/Secu2/Tests/watchdog/malware_2.c">
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="I:/MA2/Secu2/Tests/watchdog/malware_3.c">
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="I:/MA2/Secu2/Tests/watchdog/malware_4.c">
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="I:/MA2/Secu2/Tests/watchdog/malware_5.c">
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="I:/MA2/Secu2/Tests/watchdog/malware_6.c">
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="I:/MA2/Secu2/Tests/watchdog/malware_7.c">
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="I:/MA2/Secu2/Tests/watchdog/malware_8.c">
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="I:/MA2/Secu2/Tests/watchdog/malware_9.c">
+			<Option target="Tests"/>
+		</Unit>
+		<Unit filename="I:/MA2/Secu2/Tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

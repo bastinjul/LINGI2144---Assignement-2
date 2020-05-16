@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+I:/MA2/Secu2/Tests/Malwares/malware_1.c
+stdio.h
+-
+
+I:/MA2/Secu2/Tests/Malwares/malware_2.c
+stdio.h
+-
+
+I:/MA2/Secu2/Tests/Malwares/malware_3.c
+stdio.h
+-
+
+I:/MA2/Secu2/Tests/Malwares/malware_4.c
+stdio.h
+-
+
+I:/MA2/Secu2/Tests/Malwares/malware_5.c
+stdio.h
+-
+
+I:/MA2/Secu2/Tests/Malwares/malware_6.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+
+I:/MA2/Secu2/Tests/main.c
+stdio.h
+-
+
